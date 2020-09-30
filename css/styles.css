@@ -1,0 +1,112 @@
+body {
+  color: black;
+  background: #ffe0b3;
+
+  font-family: "Courier New", courier, monospace;
+}
+
+.lorem {
+  margin-left: 3.5%;
+  margin-right: 3.5%;
+  margin-top: 4%;
+
+  background-color: white;
+  border: 1px solid black;
+  margin: 5px;
+  padding: 1em;
+  height: 100%;
+
+  float: left;
+}
+
+
+h2 {
+  text-align: center;
+}
+
+
+p {
+  position: relative;
+}
+
+.lorem:hover {
+  background-color: #d9d9d9
+}
+
+.chicken {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+#header-nav {
+  background-color: #8f00b3;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 {
+  font-family: "Courier New", courier, monospace;
+  color: white;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: white;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+
+@media (min-width: 992px) {
+  .lorem {
+  width: 32%;
+  }
+
+  .chicken {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+  #lorem1 {
+    width: 48%;
+  }
+  #lorem2 {
+    width: 48%;
+  }
+  #lorem3 {
+    width: 98%;
+  }
+
+  .chicken {
+    width: 100px;
+    width: 100px;
+  }
+}
+
+@media (max-width: 767px) {
+  .chicken {
+  display: none;
+  }
+}
